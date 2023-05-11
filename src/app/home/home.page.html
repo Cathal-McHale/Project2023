@@ -1,19 +1,96 @@
+
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+     <!-- <ion-button (click)="goToSettingsPage()">-->
+        <ion-icon name="settings"></ion-icon>
+      <!--</ion-button>-->
+    </ion-buttons>
     <ion-title>
-      Blank
+      Weather App
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
- <h3>Welcome to Mobile Apps Starter project 2023</h3>
-  </div>
+<ion-content [fullscreen]="true">
+<div class="Main">Galway
+<span class ="city">City</span>
+<span class ="Date"> Fri, 9.55pm </span>
+
+<div class="icon">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt="">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt="">
+</div>
+
+
+<span class ="Description">Sunny </span>
+<span class ="temp">18c</span>
+</div>
+
+
+<!-- 7 day forcast-->
+<ion-grid>
+  <!--Days-->
+<ion-row>
+<ion-col class="day">Mon</ion-col>
+<ion-col class="day">Tue</ion-col>
+<ion-col class="day">Wed</ion-col>
+<ion-col class="day">Thur</ion-col>
+<ion-col class="day">Fri</ion-col>
+<ion-col class="day">Sat</ion-col>
+<ion-col class="day">Sun</ion-col>
+</ion-row>
+<!-- Chances of Precipatation-->
+<ion-row>
+  <ion-col class="Precipatation">40%</ion-col>
+  <ion-col class="Precipatation">--</ion-col>
+  <ion-col class="Precipatation">23%</ion-col>
+  <ion-col class="Precipatation">44%</ion-col>
+  <ion-col class="Precipatation">--</ion-col>
+  <ion-col class="Precipatation">--</ion-col>
+  <ion-col class="Precipatation">--</ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col class ="icon1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt=""></ion-col>
+    <ion-col class ="icon1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt=""></ion-col>
+    <ion-col class ="icon1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt=""></ion-col>
+    <ion-col class ="icon1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt=""></ion-col>
+    <ion-col class ="icon1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt=""></ion-col>
+    <ion-col class ="icon1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6PQgQ08Ct79SPegkxPuk4iUmt1Rm-SJf7bg&usqp=CAU" alt=""></ion-col>
+  </ion-row>
+
+
+  <!--Max temp-->
+  <ion-row>
+  <ion-col class="High">23c</ion-col>
+  <ion-col class="High">22</ion-col>
+  <ion-col class="High">12</ion-col>
+  <ion-col class="High">23</ion-col>
+  <ion-col class="High">30</ion-col>
+  <ion-col class="High">29</ion-col>
+  <ion-col class="High">29</ion-col>
+</ion-row>
+
+
+<ion-row>
+  <ion-col class="Low">13c</ion-col>
+  <ion-col class="Low">12</ion-col>
+  <ion-col class="Low">12</ion-col>
+  <ion-col class="Low">13</ion-col>
+  <ion-col class="Low">10</ion-col>
+  <ion-col class="Low">19</ion-col>
+  <ion-col class="Low">16</ion-col>
+</ion-row>
+
+
+
+
+
+</ion-grid>
 </ion-content>

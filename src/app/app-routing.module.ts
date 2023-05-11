@@ -14,6 +14,10 @@ const routes: Routes = [
     path: 'about-page',
     loadChildren: () => import('./about-page/about-page.module').then( m => m.AboutPagePageModule)
   },
+  {
+    path: 'go-to-settings-page',
+    loadChildren: () => import('./go-to-settings-page/go-to-settings-page.module').then( m => m.GoToSettingsPagePageModule)
+  },
 
 ];
 
