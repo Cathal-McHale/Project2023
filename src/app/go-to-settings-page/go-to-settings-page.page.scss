@@ -1,0 +1,25 @@
+page-go-to-settings {
+    ion-content {
+      --background: #f5f5f5; // Set the background color
+    }
+  
+    ion-title {
+      color: #333333; // Set the title color
+    }
+  
+    ion-buttons {
+      ion-button {
+        --padding-start: 4px; // Adjust the padding for the buttons
+        --padding-end: 4px;
+        --padding-top: 4px;
+        --padding-bottom: 4px;
+        --border-radius: 50%; // Make the buttons circular
+        --background: #ffffff; // Set the button background color
+      }
+      
+      ion-icon {
+        --ion-color-primary: #333333; // Set the icon color
+      }
+    }
+  }
+  

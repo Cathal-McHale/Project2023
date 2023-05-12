@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { GoToSettingsPagePage } from './go-to-settings-page.page';
 
 describe('GoToSettingsPagePage', () => {
